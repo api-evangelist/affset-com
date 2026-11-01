@@ -1,4 +1,4 @@
-# affset-com
+# Affset
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-affset-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://affset.com/
+Affset provides an affiliate tracking platform with a built‑in MCP server, enabling media buyers, affiliate teams, and CPA networks to monitor clicks, conversions, and postbacks in real time. The service offers a free forever plan, white‑label options, and integrations with AI assistants like Claude and Cursor. It includes detailed documentation, pricing, demo, and support resources, positioning itself as a comprehensive solution for performance marketing and affiliate management.
+
+**Areas:** Affiliate Tracking · Media Buying · CPA Networks · Postback · White‑label · API · Pricing
+
+## Affset on APIs.io
+
+Everything profiled for Affset is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/affset-com/](https://apis.io/providers/affset-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Affset API](https://apis.io/apis/affset-com/affset-api/) — Affset provides an affiliate tracking platform with public documentation at https://affset.com/docs.
+- [Affset API](https://apis.io/apis/affset-com/affset-com-api/) — Affset API as documented publicly: 76 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiPayoutRequestsPayoutrequestidResponse](https://apis.io/schemas/affset-com/affset-com-get-api-payout-requests-payoutrequestid-response/)
+- [GetApiTrafficSourcesB3E1E6B02F2A4A3E9C8E1C9A2F6D4B22BlocksPu](https://apis.io/schemas/affset-com/affset-com-get-api-traffic-sources-b3-e1-e6-b02-f2-a4-a3-e9-c8-e1-c9-a2-f6-d4-b22-blocks-pu/)
+- [PostApiOffersRequest](https://apis.io/schemas/affset-com/affset-com-post-api-offers-request/)
+- [PostApiTrafficSourcesRequest](https://apis.io/schemas/affset-com/affset-com-post-api-traffic-sources-request/)
+- [PutApiOffersOfferidRequest](https://apis.io/schemas/affset-com/affset-com-put-api-offers-offerid-request/)
+- [PutApiTrafficSourcesTrafficsourceidRequest](https://apis.io/schemas/affset-com/affset-com-put-api-traffic-sources-trafficsourceid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Affset Com Context](https://apis.io/jsonld/affset-com/affset-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Affset API Rules](https://apis.io/rules/affset-com/affset-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Affset Com Domain Security](https://apis.io/security/affset-com/affset-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Affset Com Plans Pricing](https://apis.io/plans/affset-com/affset-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://affset.com/)
+- [Documentation](https://affset.com/docs)
+- [Getting started](https://affset.com/demo)
+- [API reference](https://affset.com/openapi.json)
+- [Pricing](https://affset.com/pricing)
+- [Terms of service](https://affset.com/terms)
+- [Privacy policy](https://affset.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.7** — developing · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 40.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/affset-com/](https://apis.io/providers/affset-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Affset: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/affset-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
